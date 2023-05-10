@@ -26,33 +26,54 @@ body {
 }
 
 .main {
-	margin: 10% 20%;
+	padding: 0 15%
 }
 
 .main-title {
+	line-height: 56px;
 	font-family: 'Krona One', sans-serif;
 	font-weight: 400;
 	font-size: 36px;
-	margin-bottom: 1em;
+	margin-bottom: 40px;
 }
 
 .main-content {
+	line-height: 36px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
 	margin-bottom: 2em;
 }
 
+.container-button {
+	display: flex;
+	gap: 32px;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main-button-title {
+	font-family: 'Krona One', sans-serif;
+	line-height: 40px;
+	font-size: 24px;
+}
+
 .main-ancor {
+	color: #F6F6F6;
+	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	font-size: 24px;
-	text-decoration: none;
-	background-color: #22D4FD;
-	border-radius: 16px;
-	width: 280px;
+	line-height: 36px;
+	border: 2px solid #22D4FD;
+	border-radius: 8px;
+	width: 378px;
 	text-align: center;
-	padding: 22px 0;
+	padding: 16px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
 }
 
 .text-highlight {
