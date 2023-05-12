@@ -9,24 +9,39 @@
 	box-sizing: border-box;
 }
 
-html {
-	height: 100vh;
-}
-
 body {
 	background-color: #000000;
 	color: #F6F6F6;
 }
 
+.main-header {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+
+}
+
+.main-header__nav {
+	padding: 2% 15%;
+	display: flex;
+	gap: 80px;
+}
+
+.main-header__nav__link {
+	text-decoration: none;
+	color: #22D4FD;
+}
+
 .container {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-between;
 	gap: 50px;
 }
 
 .main {
-	padding: 0 15%
+	padding: 3% 15%
 }
 
 .main-title {
@@ -76,6 +91,17 @@ body {
 	gap: 16px;
 }
 
+.main-ancor:hover {
+	background-color: #272727;
+}
+
 .text-highlight {
 	color: #22D4FD;
+}
+
+.main-footer {
+	background-color: #22D4FD;
+	color: #000000;
+	text-align: center;
+	padding: 25px 0;
 }
